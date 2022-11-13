@@ -12,5 +12,6 @@ public class App {
         float resultf = Mathematics.add(1.9f, 2);
         System.out.println("resultf = " + resultf);
 
+        System.out.println( DeterminationBMI.bmi(65f,1.75f) );
     }
 }
